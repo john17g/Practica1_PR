@@ -1,0 +1,6 @@
+import cv2
+import matplotlib.pyplot as plt
+
+img = cv2.imread('.\PR\paisaje.jpg',0)
+
+imgplt = plt.imshow(img)
